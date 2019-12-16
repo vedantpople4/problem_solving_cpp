@@ -10,3 +10,20 @@ The first line contains a non-empty string, that contains only lowercase English
 Output
 If it is a female by our hero's method, print "CHAT WITH HER!" (without the quotes), otherwise, print "IGNORE HIM!" (without the quotes).
 
+CODE:
+#include<iostream>
+using namespace std;
+int main()
+{
+char c[10002];
+long i,r,a[1000];	
+ cin>>c;
+ for(i=0;c[i];i++)
+  a[c[i]]=1;
+ for(i=0;i<300;i++)
+  r+=a[i];
+ if(r%2==1)
+ cout<<"IGNORE HIM!";
+ else
+ cout<<"CHAT WITH HER!";
+}
