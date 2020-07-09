@@ -1,34 +1,19 @@
-#include<iostream>
-#include<algorithm>
+#include<bits/stdc++.h>
 using namespace std;
- 
+
+#define nl '\n'
+#define ll long long 
+#define testcase long long t; cin>>t;
+
 int main()
 {
-	string s;
-	cin>>s;
-	int a=0, b=0;
-	for(int i=0;i<s.length();i++)
-	{
-		if(islower(s[i]))
-		a++;
-		else
-		b++;
-	}
-	if(a>=b)
-	{
-		for(int i=0;i<s.length();i++)
-		{
-			char t = tolower(s[i]);
-			cout<<t;
-		}
-	}
-	else
-	{
-		for(int i=0;i<s.length();i++)
-		{
-			char t = toupper(s[i]);
-			cout<<t;
-		}
+	testcase;
+	while(t--){
+		ll n;
+		cin>>n;
+		ll a[n];
+		for(ll i=0;i<n;i++) cin>>a[i];
+		
 	}
 	return 0;
 }
