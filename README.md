@@ -1,5 +1,5 @@
 # problem_solving_cpp
-Solutions to all the codes I do daily. The questions from Love babbaar's 450 DS Algo 
+Solutions to all the codes I do daily. The questions from Love babbaar
 These Questions are from Problemsets in Codeforces and Codechef.
 Problems from leetcode will be uploaded soon.
 
