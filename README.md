@@ -1,5 +1,5 @@
 # problem_solving_cpp
-Solutions to all the codes I do daily. The questions from Love babbaar
+Solutions to all the codes I do daily. 
 These Questions are from Problemsets in Codeforces and Codechef.
 Problems from leetcode will be uploaded soon.
 
