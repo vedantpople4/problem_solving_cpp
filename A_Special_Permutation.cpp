@@ -29,13 +29,20 @@ using namespace std;
 #define frs(a, b, c) for (int(a)=(b); (a) * (a) <= (c); ++(a)) 
 #define frc(a, b, c) for (char(a)=(b); (a) <= (c); ++(a)) 
 typedef long long ll;
-#define testcase long long t; cin>>t; while(t--);
+#define testcase long long t; cin>>t;
 
 int main()
 {
 testcase;
 while(t--){
-
+    ll n=0;
+    cin>>n;
+    fr(a,0,n){
+       
+        cout<<(a+1)%n+1<<" ";
+        
+    }
+    cout<<endl;
 }
 return 0;
 }
