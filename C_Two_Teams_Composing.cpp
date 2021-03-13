@@ -1,6 +1,4 @@
-#include<iostream>
-#include<cstdio>
-#include<vector>
+#include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
 
@@ -11,16 +9,17 @@ int main()
     while(t--){
         ll n;
         cin>>n;
-        vector <ll> v;
-        for(ll i=0;i<v.size();i++) cin>>v[i];
-        ll c1=0, c2=0;
-        for(ll i=0;i<v.size()-1;i++){
-            if(v[i]==v[v.size()+1])c2++;
-            else c1++;
+        vector <ll> v(n+1);
+        for(ll i =0;i<n;++i){
+            ll x;
+            cin>>x;
+            ++v[x];
         }
-        cout<<min(c1,c2)<<endl;
+        ll mx = *max_element(v.begin(),v.end());
+        ll diff = n+1-count(v.begin(),v.end(),0);
+        cout<<max(min(mx-1,diff),min(mx,diff-1))<<endl;
+    
 
     }
     return 0;
-
 }
