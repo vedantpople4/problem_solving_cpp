@@ -2,6 +2,7 @@
 #include<cstdio>
 #include<set>
 #include<algorithm>
+#include<list>
 using namespace std;
 using ll = long long;
 
