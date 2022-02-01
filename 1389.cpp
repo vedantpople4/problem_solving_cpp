@@ -1,9 +1,13 @@
-vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {
-        vector<int> target;
-        
-        for(int i = 0; i <nums.size(); i++)
-        {
-            target.insert(target.begin()+index[i], nums[i]);
+class Solution {
+public:
+    vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {
+        vector<int> ans;
+        for (int i=0; i<nums.size(); i++) {
+            ans.insert(ans.begin()+index.at(i), nums.at(i));
         }
-        return target;
+        return ans;
+    
     }
+};
+
+
