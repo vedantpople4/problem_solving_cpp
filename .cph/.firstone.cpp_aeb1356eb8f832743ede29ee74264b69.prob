@@ -1,0 +1,1 @@
+{"name":"Local: firstone","url":"d:\\Projects\\problem_solving_cpp\\firstone.cpp","tests":[{"id":1651153665654,"input":"2\n5 6\n4 3","output":"-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Projects\\problem_solving_cpp\\firstone.cpp","group":"local","local":true}
